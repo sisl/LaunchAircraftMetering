@@ -2,16 +2,6 @@
 
 This directory contains the supplement code for the paper titled "Optimal Aircraft Metering during Space Launches" by Rachael E. Tompa and Mykel J. Kochenderfer, to appear in the 2019 Digital Avionics Systems Conference.
 
-<!-- MarkdownTOC -->
-
-- [Overview](#overview)
-    - [Dependencies](#dependencies)
-    - [Layout](#layout)
-- [MDP Framework](#mdp-framework)
-- [Simulation Framework](#simulation-framework)
-
-<!-- /MarkdownTOC -->
-
 ## Overview
 The code in this repository supports one of two tasks:
 
