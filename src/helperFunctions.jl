@@ -12,8 +12,6 @@ using DelimitedFiles
 using FileIO
 using Geodesy
 using HDF5
-using Interact
-using JLD
 using JLD2
 using NearestNeighbors
 using Parameters
@@ -37,7 +35,7 @@ end
 function read_in_debris(n_debris_profiles::Int, launch_site_info::LaunchSiteInfo)
     debris = []
     for i = 1:n_debris_profiles
-        debris_filename = string("../assets/debris03_19/debrisProfile_",string(i),".txt")
+        debris_filename = string("../assets/debrisProfile_",string(i),".txt")
         debris_profile = readdlm(debris_filename, ',', Float64, '\n') # read in raw info
         if i == 1
             debris = debris_profile

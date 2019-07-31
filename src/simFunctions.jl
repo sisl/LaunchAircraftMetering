@@ -9,18 +9,13 @@
 @everywhere using Random
 @everywhere using StaticArrays
 ## Load Dependencies for functions
-using PGFPlots
-using Colors
 using DelimitedFiles
 using FileIO
 using Geodesy
 using HDF5
-using Interact
-using JLD
 using JLD2
 using NearestNeighbors
 using Parameters
-using PGFPlots
 ## For Loading Files from JLD2
 Core.eval(Main, :(using Distances))
 Core.eval(Main, :(using NearestNeighbors))

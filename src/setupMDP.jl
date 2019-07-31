@@ -13,8 +13,6 @@ using Distributions
 using FileIO
 using Geodesy
 using HDF5
-using Interact
-using JLD
 using JLD2
 using NearestNeighbors
 using Parameters
