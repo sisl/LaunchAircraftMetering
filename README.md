@@ -19,8 +19,8 @@ The code in this repository supports one of two tasks:
 * evaluating those policies in simulation (simRun.jl)
 
 ### Dependencies
-The following Julia packages are required for running code. 
-* [DisceteValueIteration]
+The software is implemented entirely in Julia. The following Julia packages are required for running the code: 
+* [DisceteValueIteration](https://github.com/JuliaPOMDP/DiscreteValueIteration.jl)
 * [Distances](https://github.com/JuliaStats/Distances.jl)
 * [Geodesy](https://github.com/JuliaGeo/Geodesy.jl)
 * [GridInterpolations](https://github.com/sisl/GridInterpolations.jl)
@@ -47,6 +47,7 @@ src/
     simRun.jl
 
 assets/
+
     debrisProfile_1.txt
     waypoints.jld2
     
